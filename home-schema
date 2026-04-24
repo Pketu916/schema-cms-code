@@ -1,0 +1,172 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Appsrow Solutions",
+    "url": "https://appsrow-solutions-2026.webflow.io",
+    "logo": "https://appsrow-solutions-2026.webflow.io/logo.png",
+    "description": "A leading Webflow design & development agency delivering visually striking, user-friendly, and scalable websites for businesses worldwide.",
+    "foundingLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Ahmedabad",
+        "addressRegion": "Gujarat",
+        "addressCountry": "IN"
+      }
+    },
+    "sameAs": [
+      "https://webflow.com/@appsrowsolutions",
+      "https://www.linkedin.com/company/appsrow",
+      "https://twitter.com/appsrow"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "availableLanguage": "English"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Appsrow Solutions",
+    "url": "https://appsrow-solutions-2026.webflow.io",
+    "description": "Premium Certified Webflow Partner Agency specializing in web design, development, branding, UI/UX, and digital marketing.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ahmedabad",
+      "addressRegion": "Gujarat",
+      "addressCountry": "IN"
+    },
+    "areaServed": "Worldwide",
+    "priceRange": "$$"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Webflow Web Design & Development",
+    "provider": {
+      "@type": "Organization",
+      "name": "Appsrow Solutions"
+    },
+    "description": "High-performing, scalable Webflow websites built to empower marketing teams and drive business results.",
+    "areaServed": "Worldwide",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Webflow Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Webflow Design & Development"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Branding & Digital Marketing"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "UI/UX Design & App Development"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Website Maintenance & SEO"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Appsrow Solutions",
+    "url": "https://appsrow-solutions-2026.webflow.io",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://appsrow-solutions-2026.webflow.io/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "AggregateRating",
+    "itemReviewed": {
+      "@type": "Organization",
+      "name": "Appsrow Solutions"
+    },
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "50"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What services does Appsrow Solutions offer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Appsrow offers Webflow design & development, branding, digital marketing, UI/UX design, and app development."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Appsrow a certified Webflow partner?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, Appsrow Solutions is a Premium Certified Webflow Partner Agency."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can Appsrow migrate my existing website to Webflow?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, Appsrow can migrate websites from platforms like WordPress, Wix, or custom code to Webflow with improved performance and SEO-friendly structure."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://appsrow-solutions-2026.webflow.io/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Services",
+        "item": "https://appsrow-solutions-2026.webflow.io/services"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Portfolio",
+        "item": "https://appsrow-solutions-2026.webflow.io/portfolio"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Contact",
+        "item": "https://appsrow-solutions-2026.webflow.io/contact"
+      }
+    ]
+  }
+]
