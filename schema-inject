@@ -1,0 +1,29 @@
+<script id="wf-cms-schema-raw" type="application/json"> {{wf {&quot;path&quot;:&quot;schema&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} </script>
+<script>
+(function () {
+  try {
+    var holder = document.getElementById("wf-cms-schema-raw");
+    if (!holder) return;
+
+    var raw = (holder.textContent || "").trim();
+    if (!raw) return;
+
+    var ta = document.createElement("textarea");
+    ta.innerHTML = raw;
+    var decoded = (ta.value || "").trim();
+
+    var obj = JSON.parse(decoded);
+
+    var old = document.querySelector('script[data-wf-cms-loader="1"]');
+    if (old) old.remove();
+
+    var s = document.createElement("script");
+    s.type = "application/ld+json";
+    s.setAttribute("data-wf-cms-loader", "1");
+    s.text = JSON.stringify(obj);
+    document.head.appendChild(s);
+  } catch (e) {
+    console.warn("CMS schema loader:", e);
+  }
+})();
+</script>
